@@ -1,7 +1,6 @@
-@import "../../theme.scss";
+@import '../../theme.scss';
 
 .NewDealForm {
-
   &--div {
     margin-bottom: 16px;
     display: flex;
@@ -17,5 +16,18 @@
   &--button {
     margin-top: 8px;
     align-self: flex-end;
+  }
+
+  &--error {
+    color: $Rose;
+    font-size: $BodySmall;
+  }
+
+  &--errorInput {
+    border: 1px solid $Rose;
+    border-radius: 2px;
+    &:focus {
+      border: 1px solid $Rose;
+    }
   }
 }

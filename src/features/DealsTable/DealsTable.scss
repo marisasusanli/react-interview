@@ -1,4 +1,4 @@
-@import "../../theme.scss";
+@import '../../theme.scss';
 
 .DealsTable {
   background: white;
@@ -27,6 +27,13 @@
     &:last-child {
       border-top-right-radius: 10px;
       border-right: none;
+    }
+
+    &:not(:last-child):hover {
+      background-color: #252931;
+    }
+    &:not(:last-child):active {
+      background-color: #323742;
     }
   }
 }

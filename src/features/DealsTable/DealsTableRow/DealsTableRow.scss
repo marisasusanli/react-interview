@@ -1,4 +1,4 @@
-@import "../../../theme.scss";
+@import '../../../theme.scss';
 
 .DealsTableRow {
   border-top: 1px solid #c1c3d1;
@@ -49,5 +49,24 @@
     &:last-child {
       border-right: 0px;
     }
+  }
+
+  &--publishButton {
+    background-color: $Robin;
+    &:hover {
+      background-color: $RobinDark;
+    }
+  }
+
+  &--publishButton:disabled {
+    background-color: rgba(201, 206, 201, 0.938);
+  }
+
+  &--removeButton {
+    background-color: $Slate;
+    &:hover {
+      background-color: $Tin;
+    }
+    margin: 5px 0px;
   }
 }
